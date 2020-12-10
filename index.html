@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <div class="nome">
+    <h1>calculadora by mv</h1></div>
+    <link href="css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="area-calculadora">
+    <form id="calculadora">
+    <input id="visor" readonly>
+    <div class= "botoes">
+    <button type="button"onclick="limparvisor();">C</button>
+    <button type="button"onclick="Raizquadrada();">&radic;</button>
+    <button type="button"onclick="apagar();">&larr;</button>
+    <button type="button"onclick="inserir0();">0</button>
+ 
+    <button type="button"onclick="inserir7();">7</button>
+    <button type="button"onclick="inserir8();">8</button>
+    <button type="button"onclick="inserir9();">9</button>
+    <button type="button"onclick="inserirmultiplicacao();">*</button>
+      
+    <button type="button"onclick="inserir4();">4</button>
+    <button type="button"onclick="inserir5();">5</button>
+    <button type="button"onclick="inserir6();">6</button>
+    <button type="button"onclick="inserirdivisao();">/</button>
+
+    <button type="button"onclick="inserir1();">1</button>
+    <button type="button"onclick="inserir2();">2</button>
+    <button type="button"onclick="inserir3();">3</button>
+    <button type="button"onclick="inserirmenos();">-</button>
+
+    <button type="button"onclick="inserirponto();">.</button>
+    <button type="button"onclick="inserirmais();">+</button>
+    <button type="button"onclick="calcular();">=</button>
+
+
+    
+    </div>
+    </form>
+</div>
+
+
+
+
+    <script src="js/funcoes.js"></script>
+</body>
+</html>
